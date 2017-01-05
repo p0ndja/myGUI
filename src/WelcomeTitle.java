@@ -56,7 +56,7 @@ public class WelcomeTitle {
 		frame.setBounds(100, 100, 396, 240);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-		JLabel lblGuest = new JLabel("ยินดีต้อนรับ Guest, กรุณา Login เพื่อเข้าสู่ระบบ");
+		JLabel lblGuest = new JLabel("Welcome Guest, Please login to enter the system");
 		lblGuest.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGuest.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		lblGuest.setBounds(10, 45, 360, 34);
@@ -71,7 +71,7 @@ public class WelcomeTitle {
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
-		JButton button = new JButton("ลงชื่อเข้าใช้งาน");
+		JButton button = new JButton("Sign In");
 		button.setFont(new Font("Tahoma", Font.BOLD, 12));
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
