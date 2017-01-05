@@ -75,21 +75,21 @@ public class WelcomeTitle {
 		button.setFont(new Font("Tahoma", Font.BOLD, 12));
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				if (textField.getText().equalsIgnoreCase("11032545")) {
-					JOptionPane.showMessageDialog(frame, "ยินดีต้อนรับคุณพลภณ (User: 01)");
+				if (textField.getText().equalsIgnoreCase("1111")) {
+					JOptionPane.showMessageDialog(frame, "Welcome, User UNDEFINED_1");
 				}
-				else if (textField.getText().equalsIgnoreCase("jimmyy")) {
-					JOptionPane.showMessageDialog(frame, "ยินดีต้อนรับคุณรัชฎาพร (User: 02)");
+				else if (textField.getText().equalsIgnoreCase("2222")) {
+					JOptionPane.showMessageDialog(frame, "Welcome, User UNDEFINED_2");
 				}
-				else if (textField.getText().equalsIgnoreCase("cheard7521")) {
-					JOptionPane.showMessageDialog(frame, "ยินดีต้อนรับคุณเชิดชัย (User: 03)");
+				else if (textField.getText().equalsIgnoreCase("3333")) {
+					JOptionPane.showMessageDialog(frame, "Welcome, User UNDEFINED_3");
 				}
 				else if (textField.getText().equalsIgnoreCase("debug_mode")) {
 					JFrame MainMenu = new JFrame("Main Menu");
 					MainMenu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				}
-				else if (!textField.getText().equalsIgnoreCase("11032545") && !textField.getText().equalsIgnoreCase("jimmyy") && !textField.getText().equalsIgnoreCase("cheard7521") && (!textField.getText().equalsIgnoreCase("debug_mode"))){
-					JOptionPane.showMessageDialog(frame, "คุณใส่รหัสผ่านไม่ถูกต้อง");
+				else if (!textField.getText().equalsIgnoreCase("1111") && !textField.getText().equalsIgnoreCase("2222") && !textField.getText().equalsIgnoreCase("3333") && (!textField.getText().equalsIgnoreCase("debug_mode"))){
+					JOptionPane.showMessageDialog(frame, "Wrong Password");
 				}
 			}
 		});
